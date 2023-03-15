@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    border: none;
+    display: inline-block;
+    
+}
+.outer{
+    width: 361px;
+    height: 355px;
+    
+}
+.calc{
+    width: 351px;
+    height: 50px;
+    margin: 0.5px;
+    border-radius: 10px;
+    
+    background-color: #000000;
+    color: white;
+    font-size: 25px;
+    
+}
+.inp{
+    display: inline-block;
+    border: 1px solid;
+    border-color: #000000;
+    margin-left: 0px;
+    margin-right: 1px;
+    margin-bottom: 5px;
+
+}
+.butns{
+    height: 381px;
+    width: 360px;
+    margin-left: 0px;
+}
+.calc-btn{
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 60px;
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    background-color: #555555;
+}
+.calc-btn-a{
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 60px;
+    font-size: 25px;
+    color: black;
+    margin-right: 20px;
+    background-color: #d3d3d3;
+}
+.calc-btn-b{
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 60px;
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+    background-color: #ff8000;
+}
+.calc-btn-0{
+    width: 100%;
+    height: 70px;
+    font-size: 25px;
+    color: white;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 260px;
+    margin-right: 10px;
+    background-color: #555555;
+}
+.row-btns{
+    padding-top: 2px;
+    padding-bottom: -2px;
+    width: 359px;
+    height: 92px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.row-btns-last{
+    width: 359px;
+    height: 92px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+.ac-btn{
+    display: flex;
+    width:50%;
+    height: 100%;
+    
+}
+.calc-btn:hover,.calc-btn-0:hover,.calc-btn-a:hover,.calc-btn-b:hover{
+    background-color: white;
+    color: #000000;
+}
+.calc-btn:active,.calc-btn-0:active,.calc-btn-a:active,.calc-btn-b:active{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.ac-btn-last{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 0px;
+}

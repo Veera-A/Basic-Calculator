@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calculator/calc.css">
+    <script src="/calculator/calcop.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="outer">
+        <div class="inp">
+            <input type="text" id="math" class="calc">
+        </div>
+        <div class="butns">
+            <div class="row-btns">
+                <button class="calc-btn-a" onclick="send('AC')">AC</button>
+                <button class="calc-btn-a" onclick="send('+/-')">+/-</button>
+                <button class="calc-btn-a" onclick="send('%')">%</button>
+                <button class="calc-btn-b" onclick="send('/')">/</button>
+            </div>
+            <div class="row-btns">
+                <button class="calc-btn" onclick="send(7)">7</button>
+                <button class="calc-btn" onclick="send(8)">8</button>
+                <button class="calc-btn" onclick="send(9)">9</button>
+                <button class="calc-btn-b" onclick="send('*')">*</button>
+            </div>
+            <div class="row-btns">
+                <button class="calc-btn" onclick="send(4)">4</button>
+                <button class="calc-btn" onclick="send(5)">5</button>
+                <button class="calc-btn" onclick="send(6)">6</button>
+                <button class="calc-btn-b" onclick="send('-')">-</button>
+            </div>
+            <div class="row-btns">
+                <button class="calc-btn" onclick="send(1)">1</button>
+                <button class="calc-btn" onclick="send(2)">2</button>
+                <button class="calc-btn" onclick="send(3)">3</button>
+                <button class="calc-btn-b" onclick="send('+')">+</button>
+            </div>
+            <div class="row-btns-last">
+                <div class="ac-btn">
+                    <button class="calc-btn-0" onclick="send(0)">0</button>
+                </div>
+                <div class="ac-btn-last">
+                    <button class="calc-btn" onclick="send('.')">.</button>
+                <button class="calc-btn-b" onclick="send('=')">=</button>
+            </div>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>
