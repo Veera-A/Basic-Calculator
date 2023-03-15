@@ -19,5 +19,10 @@ function send(i){
         case '%': x.value += '%'; break;
         case '.': x.value += '.'; break;
         case '=': x.value = eval(x.value); break;
+        case '+/-':
+            {
+                if(x.value[0] != '-')
+                    x.value = '-' + x.value;
+            }
     }
 }
